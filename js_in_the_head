@@ -14,10 +14,10 @@
 </head>
 
 <body>
-    <h1>JavaScript Functions and Events
-    </h1>
+    <h2>JavaScript Functions and Events
+    </h2>
 
-    <p id="demo">CHANGING</p>
+    <p id="demo">Changing</p>
 
     <button type="button" onclick="myFunction ()">Try it!</button>
 </body>
