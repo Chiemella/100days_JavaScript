@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Js can do</title>
+
+    <script>
+        function myFunction () {
+            document.getElementById('demo').innerHTML = "PAGE CHANGED!"
+        }
+    </script>
+</head>
+
+<body>
+    <h1>JavaScript Functions and Events
+    </h1>
+
+    <p id="demo">CHANGING</p>
+
+    <button type="button" onclick="myFunction ()">Try it!</button>
+</body>
+
+</html>
