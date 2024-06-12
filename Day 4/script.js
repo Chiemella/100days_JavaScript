@@ -1,8 +1,8 @@
-let myAge = 50
-let humanDogRatio = 150
+// let myAge = 50
+// let humanDogRatio = 150
 
-let myDogAge = myAge * humanDogRatio
-console.log(myDogAge);
+// let myDogAge = myAge * humanDogRatio
+// console.log(myDogAge);
 
 
 
@@ -13,4 +13,11 @@ console.log(myDogAge);
 
 // console.log(count);
 
+
+let him = 20
+let her = 50 
+
+let thereAge = him + her 
+
+console.log(thereAge)
 
