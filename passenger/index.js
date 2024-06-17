@@ -1,15 +1,3 @@
-let lapsCompleted = 0
-
-function increment() {
-lapsCompleted = lapsCompleted + 1
-
-}
-increment()
-console.log(lapsCompleted)
-
-
-
-
 
 // let count = 0
 // let saveEl = document.getElementById("save-el")
@@ -28,3 +16,16 @@ console.log(lapsCompleted)
 // }
 
 // console.log("Let's count people on the subway!")
+
+let countEl = document.getElementById("count-el")
+console.log(countEl)
+
+let count = 0
+
+function increment() {
+   
+    count = count + 1
+    console.log(count)
+    countEl.innerText = count
+
+}
