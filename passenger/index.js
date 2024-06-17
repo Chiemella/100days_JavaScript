@@ -1,6 +1,15 @@
-function increment(){
-    console.log("The button was clicked")
+let lapsCompleted = 0
+
+function increment() {
+lapsCompleted = lapsCompleted + 1
+
 }
+increment()
+console.log(lapsCompleted)
+
+
+
+
 
 // let count = 0
 // let saveEl = document.getElementById("save-el")
